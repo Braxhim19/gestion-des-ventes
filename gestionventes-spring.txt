@@ -1,0 +1,43 @@
+gestionventes-spring/
+├── src/main/java/com/gestionventes/
+│   ├── GestionVentesApplication.java
+│   ├── config/
+│   │   ├── CorsConfig.java
+│   │   └── JacksonConfig.java
+│   ├── controller/
+│   │   ├── ClientController.java
+│   │   ├── CommandeController.java
+│   │   ├── ProduitController.java
+│   │   ├── FactureController.java
+│   │   ├── PaiementController.java
+│   │   └── OracleTestController.java
+│   ├── dto/
+│   │   ├── ClientDTO.java
+│   │   ├── CommandeDTO.java
+│   │   └── DetailCommandeDTO.java
+│   ├── mapper/
+│   │   ├── ClientMapper.java
+│   │   └── CommandeMapper.java
+│   ├── model/
+│   │   ├── Client.java
+│   │   ├── Commande.java
+│   │   ├── Produit.java
+│   │   ├── DetailCommande.java
+│   │   ├── DetailCommandeId.java
+│   │   ├── Facture.java
+│   │   └── Paiement.java
+│   ├── repository/
+│   │   ├── ClientRepository.java
+│   │   ├── CommandeRepository.java
+│   │   ├── ProduitRepository.java
+│   │   ├── DetailCommandeRepository.java
+│   │   ├── FactureRepository.java
+│   │   └── PaiementRepository.java
+│   └── service/
+│       ├── ClientService.java
+│       ├── CommandeService.java
+│       ├── ProduitService.java
+│       ├── FactureService.java
+│       └── PaiementService.java
+└── src/main/resources/
+    └── application.properties
